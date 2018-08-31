@@ -10,7 +10,10 @@
 body {
 /* Margin bottom by footer height */
    margin-bottom: -60px;
-   background: black;
+}
+
+ul li a {
+    color: blue;
 }
 
 #navbar {
