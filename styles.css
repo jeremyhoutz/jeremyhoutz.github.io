@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+body {
+/* Margin bottom by footer height */
+   margin-bottom: -60px;
+}
+
+#navbar {
+   margin: 0 397px;
+}
+
+.intro {
+   padding: 400px 450px 0 0;
+   background-image: url('https://a2plcpnl0383.prod.iad2.secureserver.net:2083/cpsess3854461672/viewer/home%2fdtroazjltcs9%2fpublic_html%2fthree_web/apples_three.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #ddd;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.project1 {grid-area: project1;}
+.project2 {grid-area: project2;}
+.project3 {grid-area: project3;}
+.project4 {grid-area: project4;}
+.project5 {grid-area: project5;}
+.project6 {grid-area: project6;}
+.project7 {grid-area: project7;}
+.project8 {grid-area: project8;}
+
+#projects {
+   display: grid;
+   grid-template: 'project1 project2 project3 project4'
+      'project5 project6 project7 project8';
+   grid-gap: 10px;
+   background-color: #ddd;
+   padding: 10px;
+}
+
+#projects>div {
+   background-color: #fff;
+   text-align: center;
+   padding: 20px 0;
+   font-size: 20px;
+}
+
+.project-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img {
+   border-radius: 5px 5px 0 0;
+   width: 100%;
+}
+
+.container {
+padding: 2px 16px;
+}
+
+.footer {
+/*   position: absolute; */
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #ddd;
+}
+
+.skills {
+  display: inline;
+  float: right;
+}
