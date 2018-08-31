@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     body {
-        background-color: black;
+        background-color: lightblue;
     }
 }
 [class*="col-"] {
@@ -10,6 +10,7 @@
 body {
 /* Margin bottom by footer height */
    margin-bottom: -60px;
+   background: black;
 }
 
 #navbar {
