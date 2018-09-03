@@ -7,39 +7,30 @@
     float: left;
     padding: 15px;
 }
-body {
-/* Margin bottom by footer height */
+/*body {
+  margin-top: 160px;
+ Margin bottom by footer height 
    margin-bottom: -60px;
-}
+}*/
 
-ul li a {
-    color: blue;
-}
 
 #navbar {
-   margin: 0 397px;
-}
-
-.intro {
-   padding: 400px 450px 0 0;
-   background-image: url('https://a2plcpnl0383.prod.iad2.secureserver.net:2083/cpsess3854461672/viewer/home%2fdtroazjltcs9%2fpublic_html%2fthree_web/apples_three.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-color: #ddd;
+   margin: 20px 397px;
 }
 
 #welcome-section {
-  height: 100vh;
+  margin-top: 100px;
+  padding: 50px;
+  /*height: 80vh;*/
+  background-color: #ddd;
+  border-bottom: 3px solid gray;
 }
 
 .project1 {grid-area: project1;}
 .project2 {grid-area: project2;}
 .project3 {grid-area: project3;}
 .project4 {grid-area: project4;}
-.project5 {grid-area: project5;}
-.project6 {grid-area: project6;}
-.project7 {grid-area: project7;}
-.project8 {grid-area: project8;}
+
 
 #projects {
    display: grid;
