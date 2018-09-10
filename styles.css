@@ -35,3 +35,7 @@ footer p {
   height: 25vh;
   object-fit: contain;
 }
+
+.grey {
+  background-color: #e8e9ea;
+}
